@@ -22,16 +22,46 @@ Insight: Combining domain knowledge, rigorous preprocessing, and weighted loss w
 
 ## Files
 
+### data/:
 
-credit_risk_3class.ipynb: Neural network implementation with preprocessing, training, and evaluation.
+how to load data.py: Script to load and preprocess LendingClub data.
 
-requirements.txt: Project dependencies (pandas, numpy, scikit-learn, torch, matplotlib, seaborn).
 
-loss_curve.png: Training and test loss curves.
 
-confusion_matrix.png: Test set confusion matrix.
+data_cleaning.xlsx: Documentation of data cleaning variables.
 
-load_data.py: Script to load LendingClub data (not included in public repo due to data size).
+
+
+data_information.xlsx: Summary of dataset features and characteristics.
+
+
+
+### model/:
+
+best_model.pth: Saved weights of the trained neural network model.
+
+
+
+### notebook/:
+
+
+credit_loan_classification.ipynb: Main notebook with preprocessing, training, and evaluation (achieving 96.69% accuracy).
+
+credit_loan_optuna.ipynb: Experimental notebook with Optuna hyperparameter optimization.
+
+
+
+### report/:
+
+confusion_matrix.png: Visualization of test set predictions.
+initial_report.htm.zip: Initial data analysis report before cleaning.
+updated_report.html: Updated report after data cleaning.
+
+
+
+
+### LICENSE: MIT License for the project.
+
 
 ## Future Work
 
